@@ -42,19 +42,6 @@ graph TD
     H --> K[Output Results]
     H --> L[Chain to Neuron A]
     L --> C
-
-    style A fill:#e1f5fe
-    style B fill:#fff9c4
-    style C fill:#c8e6c9
-    style D fill:#c8e6c9
-    style E fill:#f3e5f5
-    style F fill:#f3e5f5
-    style G fill:#e0f2f1
-    style H fill:#e0f2f1
-    style I fill:#bbdefb
-    style K fill:#bbdefb
-    style J fill:#ffccbc
-    style L fill:#ffccbc
 ```
 
 ## Usage Examples
@@ -138,11 +125,6 @@ graph LR
 
     D --> K[User Defined]
     D --> L[Plugin Based]
-
-    style A fill:#ffebee
-    style B fill:#c8e6c9
-    style C fill:#c8e6c9
-    style D fill:#ffecb3
 ```
 
 ## Command Reference
@@ -203,12 +185,6 @@ flowchart TD
     Task1 --> Task2[Task 2: Secondary]
     Task2 --> Task3[Task 3: Primary]
     Task3 --> End[End]
-
-    style Start fill:#c8e6c9
-    style End fill:#ffccbc
-    style Task1 fill:#fff9c4
-    style Task2 fill:#fff9c4
-    style Task3 fill:#fff9c4
 ```
 
 ## Project Structure
@@ -233,14 +209,7 @@ graph TD
     D --> N[config.schema.json]
 
     E --> O[examples.md]
-    E --> P[tasks.yaml]
-
-    style A fill:#e1f5fe
-    style B fill:#c8e6c9
-    style C fill:#c8e6c9
-    style D fill:#fff9c4
-    style E fill:#ffccbc
-    style F fill:#f3e5f5
+    E --> P[tasks.yaml
 ```
 
 ## Development
