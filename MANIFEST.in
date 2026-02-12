@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include examples/README.md
+include examples/usage_examples.py
+include examples/tasks.yaml
+recursive-include two_neurons *.py
+recursive-include examples *.yaml

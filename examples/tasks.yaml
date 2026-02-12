@@ -1,0 +1,54 @@
+# Two Neurons - Task Definitions
+
+# Security Tasks
+security:
+  vulnerability_scan:
+    description: "Scan for security vulnerabilities"
+    neuron: primary
+    parameters:
+      depth: "deep"
+      format: "json"
+
+  compliance_check:
+    description: "Check compliance with standards"
+    neuron: secondary
+    parameters:
+      standard: "iso27001"
+
+# Infrastructure Tasks
+infrastructure:
+  deploy_service:
+    description: "Deploy a new service"
+    neuron: primary
+    parameters:
+      environment: "production"
+
+  scale_resources:
+    description: "Scale infrastructure resources"
+    neuron: secondary
+    parameters:
+      type: "cpu"
+
+# Monitoring Tasks
+monitoring:
+  health_check:
+    description: "Health check of services"
+    neuron: secondary
+    parameters:
+      interval: "30s"
+
+  log_analyze:
+    description: "Analyze application logs"
+    neuron: primary
+    parameters:
+      pattern: "error"
+
+# Custom Tasks
+custom:
+  backup_database:
+    description: "Backup database"
+    neuron: custom_ops
+
+  restore_database:
+    description: "Restore database"
+    neuron: custom_ops

@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "two-neurons-cli"
+version = "1.0.0"
+description = "A CLI tool for orchestrating two neural networks for DevOps workflows"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "DevOps Team", email = "devops@example.com"}
+]
+maintainers = [
+    {name = "DevOps Team", email = "devops@example.com"}
+]
+keywords = ["devops", "cli", "neural-network", "automation", "two-neurons"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0",
+    "flake8>=6.0",
+]
+
+[project.scripts]
+two-neurons = "two_neurons.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/devops/two-neurons"
+Documentation = "https://github.com/devops/two-neurons#readme"
+Repository = "https://github.com/devops/two-neurons.git"
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+asyncio_mode = "auto"
