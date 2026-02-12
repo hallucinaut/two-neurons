@@ -31,10 +31,10 @@ classifiers = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.0",
-    "pytest-asyncio>=0.21.0",
-    "black>=23.0",
-    "flake8>=6.0",
+    "pytest",
+    "pytest-asyncio",
+    "black",
+    "flake8",
 ]
 
 [project.scripts]
@@ -44,6 +44,7 @@ two-neurons = "two_neurons.cli:main"
 Homepage = "https://github.com/hallucinaut/two-neurons"
 Documentation = "https://github.com/hallucinaut/two-neurons#readme"
 Repository = "https://github.com/hallucinaut/two-neurons.git"
+Source = "https://github.com/hallucinaut/two-neurons.git"
 
 [tool.black]
 line-length = 100

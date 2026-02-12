@@ -5,7 +5,7 @@ A powerful CLI tool for orchestrating two neural networks for DevOps workflows.
 ## Installation
 
 ```bash
-pip install two-neurons-cli
+pip install https://github.com/hallucinaut/two-neurons
 ```
 
 ## Quick Start
@@ -247,7 +247,7 @@ graph TD
 
 ```bash
 # Clone the repository
-git clone https://github.com/devops/two-neurons.git
+git clone https://github.com/hallucinaut/two-neurons.git
 cd two-neurons
 
 # Install dependencies

@@ -71,7 +71,7 @@ python examples/robust_example.py
 
 ```bash
 # Make sure the package is installed
-pip install -e .
+pip install https://github.com/hallucinaut/two-neurons
 
 # Run the simple examples
 python examples/usage_examples.py
