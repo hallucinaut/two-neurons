@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "DevOps Team", email = "devops@example.com"}
+    {name = "hallucinaut", email = "hallucinaut@example.com"}
 ]
 maintainers = [
-    {name = "DevOps Team", email = "devops@example.com"}
+    {name = "hallucinaut", email = "hallucinaut@example.com"}
 ]
 keywords = ["devops", "cli", "neural-network", "automation", "two-neurons"]
 classifiers = [
@@ -41,9 +41,9 @@ dev = [
 two-neurons = "two_neurons.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/devops/two-neurons"
-Documentation = "https://github.com/devops/two-neurons#readme"
-Repository = "https://github.com/devops/two-neurons.git"
+Homepage = "https://github.com/hallucinaut/two-neurons"
+Documentation = "https://github.com/hallucinaut/two-neurons#readme"
+Repository = "https://github.com/hallucinaut/two-neurons.git"
 
 [tool.black]
 line-length = 100

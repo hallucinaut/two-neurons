@@ -10,7 +10,7 @@ long_description = readme_file.read_text(encoding="utf-8") if readme_file.exists
 setup(
     name="two-neurons-cli",
     version="1.0.0",
-    author="DevOps Team",
+    author="hallucinaut",
     description="A CLI tool for orchestrating two neural networks for DevOps workflows",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -29,13 +29,13 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "click>=8.1.0",
-        "pyyaml>=6.0",
-        "pydantic>=2.0.0",
-        "requests>=2.31.0",
-        "python-dotenv>=1.0.0",
-        "rich>=13.0.0",
-        "typer>=0.9.0",
+        "click",
+        "pyyaml",
+        "pydantic",
+        "requests",
+        "python-dotenv",
+        "rich",
+        "typer",
     ],
     entry_points={
         "console_scripts": [
