@@ -209,7 +209,7 @@ graph TD
     D --> N[config.schema.json]
 
     E --> O[examples.md]
-    E --> P[tasks.yaml
+    E --> P[tasks.yaml]
 ```
 
 ## Development
